@@ -1,6 +1,6 @@
 {
   "name": "vatidatorjs",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "description": "A VAT validator that uses EU SOAP services to validate a given vat code",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
