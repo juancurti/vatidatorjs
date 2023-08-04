@@ -1,4 +1,4 @@
-import { validateVAT } from '../src/index';
+import validateVAT from '../src/index.js';
 
 describe('testing index file', () => {
   test('empty string should result in false', async () => {
