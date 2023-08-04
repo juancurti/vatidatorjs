@@ -1,9 +1,9 @@
 {
   "name": "vatidatorjs",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "scripts": {
     "build": "tsc -p .",
     "dev": "ts-node --esm src/index.ts"
