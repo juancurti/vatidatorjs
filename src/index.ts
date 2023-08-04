@@ -2,7 +2,7 @@ import { createClient } from 'soap';
 const euUrl = "http://ec.europa.eu/taxation_customs/vies/services/checkVatService.wsdl";
 
 async function validateVAT(code: string, countryCode: string):Promise<boolean | void> {
-    if (code.length == 0 || countryCode.length == 0) {return false};
+    if (code.length == 0 || countryCode.length == 0) { return false };
     
     return new Promise(async(resolve, reject) => {
         await createClient(euUrl, function(err, client) {
