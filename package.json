@@ -1,15 +1,13 @@
 {
   "name": "vatidatorjs",
-  "version": "1.0.19",
+  "version": "1.0.21",
   "description": "A VAT validator that uses EU SOAP services to validate a given vat code",
   "main": "dist/src/index.js",
-  "type": "module",
   "types": "dist/src/index.d.ts",
   "browser": "dist/vatidator.min.js",
   "scripts": {
     "build": "tsc -p .",
-    "dev": "ts-node --esm src/index.ts",
-    "rollup": "rollup -c"
+    "dev": "ts-node --esm src/index.ts"
   },
   "keywords": [],
   "author": "Juan Manuel Federico Curti",
@@ -22,10 +20,6 @@
     "@types/soap": "^0.21.0",
     "dotenv": "^16.3.1",
     "jest": "^29.6.2",
-    "rollup": "^3.27.2",
-    "rollup-plugin-babel-minify": "^10.0.0",
-    "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-node-resolve": "^5.2.0",
     "ts-jest": "^29.1.1",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.1.6"
